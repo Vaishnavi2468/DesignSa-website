@@ -1,0 +1,136 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 0; 
+}
+.creations{
+    width: 150px;
+    cursor: pointer;
+    height: 150px;
+
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0; 
+    padding: 0 10px;
+
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 35px;
+}
+Title {
+    font-size: 200px; 
+  }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    padding: 20px;
+    position: relative;
+    transition: color 0.5 ease;
+
+}
+nav ul li a:hover {
+    color: white;  
+}
+nav ul li a::before{
+    content: '';
+    width: 100%;
+    height: 0;
+    background:  rgb(166, 123, 91);
+    position: absolute;
+    z-index:-1;
+    left:0;
+    bottom: -5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: height 0.5s ease;
+    box-shadow: 0px 0px 0px 1px rgb(0,0,0,0.1);
+}
+nav ul li a:hover::before {
+    height: 85px;
+
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col{
+    flex-basis: 50%;
+    position: relative;
+}
+.feature-img{
+    width: 80%;
+    margin-top:10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.Title{
+    font-size: 200%;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+
+
+}
+.feature-image-two{
+    width: 280px;
+    margin-top: 1000px;
+    margin-left: 470px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 100px;
+    border-radius: 8px;
+    opacity: 0.9;
+    box-shadow: 5px 8px 10px rgba(0,0,0,0.1);
+}
+.col h1{
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.Picone{
+    border-radius: 10%;  
+    box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.1);
+
+}
+.nextalign{
+    position: absolute;
+    bottom: 100px;
+    left: 100%;
+    color: gray;
+    font-size: 70px;
+    right: 100%;
+
+}
+
+.Pictwo{
+    margin-top: 50px;
+    height: 350px;
+    border-radius: 10%;  
+    box-shadow: 0px 4px 4px 4px rgba(0,0,0,0.1);
+}
+.new-stuff{
+    color: rgb(223,213,202);
+}
